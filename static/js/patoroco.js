@@ -2,7 +2,7 @@
 Open external links in a new tab.
 Copied from: http://mitchbarry.com/handling-external-links/
 */
-(function() {
+(function () {
     var hostname = window.location.hostname;
     var new_tab = true;
     var set_icon = true;
