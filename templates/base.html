@@ -93,7 +93,7 @@
   {% endif %}
   <aside>
     <div>
-      <a href="{{ SITEURL }}">
+      <a href="{{ SITEURL }}/">
         {% if SITELOGO %}
         <img src="{{ SITELOGO }}" alt="{{ SITETITLE }}" title="{{ SITETITLE }}">
         {% else %}
@@ -205,5 +205,7 @@
   {% if GITHUB_CORNER_URL %}
   {% include 'partial/github.html' %}
   {% endif %}
+
+  <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/patoroco.js" async="async"></script>
 </body>
 </html>
